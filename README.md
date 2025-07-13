@@ -40,8 +40,8 @@ Developed with 💙 PyQt5 for the GUI and Python's `cryptography` library for se
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/secure-file-storage.git
-cd secure-file-storage
+git clone https://github.com/Ansh-Gautam-1337/Secure-File-Storage-With-AES.git
+cd Secure-File-Storage-With-AES
 ```
 
 ### 2. Install dependencies
@@ -61,7 +61,7 @@ pip install -r requirements.txt
 ### 🔷 GUI Mode (Recommended)
 
 ```bash
-python 66fd0273-9a74-49e6-b19c-95670477c25d.py
+python Secure_File_Storage_With_AES_Encryption.py
 ```
 
 - Launches an intuitive interface
@@ -71,12 +71,12 @@ python 66fd0273-9a74-49e6-b19c-95670477c25d.py
 
 #### 🔐 Encrypt a File
 ```bash
-python 66fd0273-9a74-49e6-b19c-95670477c25d.py --encrypt path/to/file.txt
+python Secure_File_Storage_With_AES_Encryption.py --encrypt path/to/file.txt
 ```
 
 #### 🔓 Decrypt a File
 ```bash
-python 66fd0273-9a74-49e6-b19c-95670477c25d.py --decrypt path/to/file.enc --output decrypted_dir/
+python Secure_File_Storage_With_AES_Encryption.py --decrypt path/to/file.enc --output decrypted_dir/
 ```
 
 You will be prompted to enter a password in both cases.
@@ -112,15 +112,6 @@ You will be prompted to enter a password in both cases.
 ## 📝 Logging
 
 All operations (success/failure) are logged in `secure_storage.log` with timestamps for traceability.
-
----
-
-## 📦 Packaging (Optional)
-
-To generate an executable:
-```bash
-pyinstaller --onefile --windowed 66fd0273-9a74-49e6-b19c-95670477c25d.py
-```
 
 ---
 
